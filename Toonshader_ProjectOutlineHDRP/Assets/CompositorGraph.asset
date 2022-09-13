@@ -1,23 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-6513862926046392273
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dd54056a23d0e6e42ac3033150305e31, type: 3}
-  m_Name: '15af4f3a-a241-4f6f-b280-979797e1c89e: SelectionGroupNode.output -> SelectionGroupUnionNode.groupB'
-  m_EditorClassIdentifier: 
-  input: {fileID: -1324826675992587931}
-  output: {fileID: -4510836818760051944}
-  inputFieldName: groupB
-  outputFieldName: output
-  guid: 15af4f3a-a241-4f6f-b280-979797e1c89e
-  useProperty: 0
 --- !u!114 &-6201517351742306253
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -54,25 +36,6 @@ MonoBehaviour:
     m_exportRenderTexture:
       overrideState: 1
       value: {fileID: 0}
---- !u!114 &-4702095332519796051
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dd54056a23d0e6e42ac3033150305e31, type: 3}
-  m_Name: '0c40342c-8892-479c-913b-cce77772ebe1: SelectionGroupUnionNode.output ->
-    RenderingNode.objects'
-  m_EditorClassIdentifier: 
-  input: {fileID: -1231764225901278633}
-  output: {fileID: -1324826675992587931}
-  inputFieldName: objects
-  outputFieldName: output
-  guid: 0c40342c-8892-479c-913b-cce77772ebe1
-  useProperty: 0
 --- !u!114 &-4510836818760051944
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -101,7 +64,7 @@ MonoBehaviour:
     - m_exposedRef:
         exposedName: 642c87fc7b5e88a4b9c52bc72ad5ce29
         defaultValue: {fileID: 0}
---- !u!114 &-1324826675992587931
+--- !u!114 &-2636099467477802523
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -110,18 +73,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 494d551868207cd4ea946853a5e1a4b9, type: 3}
-  m_Name: SelectionGroupUnionNode
+  m_Script: {fileID: 11500000, guid: dd54056a23d0e6e42ac3033150305e31, type: 3}
+  m_Name: 'a5b5c5bd-6b66-4778-9b92-1cfd0f4ff0d4: SelectionGroupNode.output -> SelectionGroupColorRenderNode.objects'
   m_EditorClassIdentifier: 
-  guid: d1033e7f-1a28-4fad-abaa-a4174bab14e7
-  groupGuid: 
-  position: {x: 65.71429, y: -236.57143}
-  renderEnabled: 1
-  title: SelectionGroupUnionNode
-  isPinned: 0
-  pinnedPosition: {x: 0, y: 0}
-  portedFieldsContainer: []
---- !u!114 &-1231764225901278633
+  input: {fileID: -33753539444908515}
+  output: {fileID: 7824192794318612158}
+  inputFieldName: objects
+  outputFieldName: output
+  guid: a5b5c5bd-6b66-4778-9b92-1cfd0f4ff0d4
+  useProperty: 0
+--- !u!114 &-33753539444908515
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -130,74 +91,38 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c60a04a9172dea34da5cc24c941eb990, type: 3}
-  m_Name: RenderingNode
+  m_Script: {fileID: 11500000, guid: 21162ba1656312545a8e6ef3bdae7d03, type: 3}
+  m_Name: SelectionGroupColorRenderNode
   m_EditorClassIdentifier: 
-  guid: b4cb03a4-79e8-4bfb-bb2c-5bfa387f72df
+  guid: e7053d40-fb9c-4214-a208-1dac72f4b386
   groupGuid: 
-  position: {x: 714.8571, y: -466.2857}
+  position: {x: -380.57144, y: -383.42856}
   renderEnabled: 1
-  title: RenderingNode
+  title: SelectionGroupColorRenderNode
   isPinned: 0
   pinnedPosition: {x: 0, y: 0}
   portedFieldsContainer: []
   size: {x: 1920, y: 1080}
   camera:
-    exposedName: 33b11b6f955857f4db7318944858c196
+    exposedName: a1f3c6baa6dee724697270bfda77a3bd
     defaultValue: {fileID: 0}
-  _renderMaterial:
-    overrideState: 0
-    value: {fileID: 0}
-  _lightShadows:
-    overrideState: 0
-    value: 0
-  includeChildRenderers: 1
-  output: {fileID: 0}
-  globalVolume:
-    overrideState: 0
-    value: {fileID: 0}
-  antialiasing: 0
-  SMAAQuality: 0
-  taaSharpenStrength: 0
-  _cullingMask:
-    overrideState: 0
-    value:
-      serializedVersion: 2
-      m_Bits: 4294967295
-  clearFlags:
-    overrideState: 0
+  m_clearFlags:
+    overrideState: 1
     value: 2
-  backgroundColor:
+  m_backgroundColor:
+    overrideState: 1
+    value: {r: 1, g: 0.07142854, b: 0.07142854, a: 0}
+  m_globalVolume:
+    overrideState: 1
+    value: {fileID: 0}
+  m_defaultGroupColor: {r: 1, g: 0, b: 0, a: 1}
+  m_objectColor:
     overrideState: 0
-    value: {r: 0, g: 0, b: 0, a: 1}
---- !u!114 &-545192623987148941
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d734242960cc7c54d99e327ba532d9ae, type: 3}
-  m_Name: SelectionGroupNode
-  m_EditorClassIdentifier: 
-  guid: 4c5bae9a-e799-4528-bce1-6c039872c13c
-  groupGuid: 
-  position: {x: 82.17828, y: 547.6637}
-  renderEnabled: 1
-  title: SelectionGroupNode
-  isPinned: 0
-  pinnedPosition: {x: 0, y: 0}
-  portedFieldsContainer: []
-  group:
-    exposedName: 
-    defaultValue: {fileID: 0}
-  m_groupReferenceList:
-    m_groupReferences:
-    - m_exposedRef:
-        exposedName: 6786c1cf8c724db45942284a982fddbe
-        defaultValue: {fileID: 0}
+    value: {r: 1, g: 1, b: 1, a: 1}
+  m_cullMode: 0
+  m_includeChildRenderers: 0
+  m_trimWithUnselectedObjs: 0
+  output: {fileID: 0}
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -211,24 +136,19 @@ MonoBehaviour:
   m_Name: CompositorGraph
   m_EditorClassIdentifier: 
   nodes:
-  - {fileID: -1231764225901278633}
   - {fileID: 7824192794318612158}
   - {fileID: -4510836818760051944}
-  - {fileID: -1324826675992587931}
-  - {fileID: -545192623987148941}
+  - {fileID: -33753539444908515}
   edges:
-  - {fileID: 868237814379142166}
-  - {fileID: -6513862926046392273}
-  - {fileID: -4702095332519796051}
-  - {fileID: 765188964089201562}
-  - {fileID: 1311903242960878564}
+  - {fileID: -2636099467477802523}
+  - {fileID: 4737971186895882408}
   layers:
   - {fileID: -6201517351742306253}
   groups: []
-  layerStackPosition: {x: 1175.4286, y: -243.42857}
+  layerStackPosition: {x: 74.28571, y: -230.2857}
   m_isInitialized: 1
   _compositorGraphVersion: 1
---- !u!114 &765188964089201562
+--- !u!114 &4737971186895882408
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -238,49 +158,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dd54056a23d0e6e42ac3033150305e31, type: 3}
-  m_Name: '14068ef8-51d4-4b0d-97b9-ae3df654a4c1: SelectionGroupNode.output -> RenderingNode.lights'
-  m_EditorClassIdentifier: 
-  input: {fileID: -1231764225901278633}
-  output: {fileID: -545192623987148941}
-  inputFieldName: lights
-  outputFieldName: output
-  guid: 14068ef8-51d4-4b0d-97b9-ae3df654a4c1
-  useProperty: 0
---- !u!114 &868237814379142166
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dd54056a23d0e6e42ac3033150305e31, type: 3}
-  m_Name: '30d09e00-d1e4-46b0-ae95-a16410449a04: SelectionGroupNode.output -> SelectionGroupUnionNode.groupA'
-  m_EditorClassIdentifier: 
-  input: {fileID: -1324826675992587931}
-  output: {fileID: 7824192794318612158}
-  inputFieldName: groupA
-  outputFieldName: output
-  guid: 30d09e00-d1e4-46b0-ae95-a16410449a04
-  useProperty: 0
---- !u!114 &1311903242960878564
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dd54056a23d0e6e42ac3033150305e31, type: 3}
-  m_Name: '1ff8e458-0a7b-4cc2-8815-229294c52726: RenderingNode.output -> LayerNode.input'
+  m_Name: '1d667398-04a8-421b-88ad-2348ecdac7c4: SelectionGroupColorRenderNode.output
+    -> LayerNode.input'
   m_EditorClassIdentifier: 
   input: {fileID: -6201517351742306253}
-  output: {fileID: -1231764225901278633}
+  output: {fileID: -33753539444908515}
   inputFieldName: input
   outputFieldName: output
-  guid: 1ff8e458-0a7b-4cc2-8815-229294c52726
+  guid: 1d667398-04a8-421b-88ad-2348ecdac7c4
   useProperty: 0
 --- !u!114 &7824192794318612158
 MonoBehaviour:
