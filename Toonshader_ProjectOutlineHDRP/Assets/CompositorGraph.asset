@@ -1,6 +1,47 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-6513862926046392273
+--- !u!114 &-9177848982289953050
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: ObjectIDColorRenderingNode
+  m_EditorClassIdentifier: Unity.VisualCompositor:Unity.VisualCompositor:ObjectIDColorRenderingNode
+  guid: f9216962-fc8e-4e75-8b83-45a424e81eeb
+  groupGuid: 
+  position: {x: 1577.3916, y: -3509.4531}
+  renderEnabled: 1
+  title: ObjectIDColorRenderingNode
+  isPinned: 0
+  pinnedPosition: {x: 0, y: 0}
+  portedFieldsContainer: []
+  size: {x: 1920, y: 1080}
+  camera:
+    exposedName: a7f09df82eb5ab54b8de35831b1053ba
+    defaultValue: {fileID: 0}
+  m_clearFlags:
+    overrideState: 1
+    value: 2
+  m_backgroundColor:
+    overrideState: 1
+    value: {r: 0, g: 0, b: 0, a: 0}
+  m_globalVolume:
+    overrideState: 1
+    value: {fileID: 0}
+  m_defaultGroupColor: {r: 1, g: 1, b: 1, a: 1}
+  m_objectColor:
+    overrideState: 0
+    value: {r: 1, g: 1, b: 1, a: 1}
+  m_cullMode: 0
+  m_includeChildRenderers: 1
+  m_trimWithUnselectedObjs: 1
+  output: {fileID: 0}
+--- !u!114 &-7606637220404121202
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -10,14 +51,42 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dd54056a23d0e6e42ac3033150305e31, type: 3}
-  m_Name: '15af4f3a-a241-4f6f-b280-979797e1c89e: SelectionGroupNode.output -> SelectionGroupUnionNode.groupB'
+  m_Name: '596aaa80-1694-481d-9161-c28d7a2e0b22: SelectionGroupNode.output -> MaterialIDRenderingNode.objects'
   m_EditorClassIdentifier: 
-  input: {fileID: -1324826675992587931}
-  output: {fileID: -4510836818760051944}
-  inputFieldName: groupB
+  input: {fileID: 4323481114127198635}
+  output: {fileID: 443877347008045187}
+  inputFieldName: objects
   outputFieldName: output
-  guid: 15af4f3a-a241-4f6f-b280-979797e1c89e
+  guid: 596aaa80-1694-481d-9161-c28d7a2e0b22
   useProperty: 0
+--- !u!114 &-7120650901348607724
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d734242960cc7c54d99e327ba532d9ae, type: 3}
+  m_Name: SelectionGroupNode
+  m_EditorClassIdentifier: 
+  guid: c88b6d67-c2b7-46e9-a296-c189727f9cb4
+  groupGuid: 
+  position: {x: 645.3334, y: -3023.3333}
+  renderEnabled: 1
+  title: SelectionGroupNode
+  isPinned: 0
+  pinnedPosition: {x: 0, y: 0}
+  portedFieldsContainer: []
+  group:
+    exposedName: 
+    defaultValue: {fileID: 0}
+  m_groupReferenceList:
+    m_groupReferences:
+    - m_exposedRef:
+        exposedName: c255103b420f6ef41a79028861bf8ae5
+        defaultValue: {fileID: 0}
 --- !u!114 &-6201517351742306253
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32,7 +101,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   guid: 39b651a1-8e0c-479e-b6c1-3466d50d67b3
   groupGuid: 
-  position: {x: 0, y: 0}
+  position: {x: 2343.3335, y: -4539.3335}
   renderEnabled: 1
   title: LayerNode
   isPinned: 0
@@ -54,25 +123,6 @@ MonoBehaviour:
     m_exportRenderTexture:
       overrideState: 1
       value: {fileID: 0}
---- !u!114 &-4702095332519796051
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dd54056a23d0e6e42ac3033150305e31, type: 3}
-  m_Name: '0c40342c-8892-479c-913b-cce77772ebe1: SelectionGroupUnionNode.output ->
-    RenderingNode.objects'
-  m_EditorClassIdentifier: 
-  input: {fileID: -1231764225901278633}
-  output: {fileID: -1324826675992587931}
-  inputFieldName: objects
-  outputFieldName: output
-  guid: 0c40342c-8892-479c-913b-cce77772ebe1
-  useProperty: 0
 --- !u!114 &-4510836818760051944
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -101,7 +151,7 @@ MonoBehaviour:
     - m_exposedRef:
         exposedName: 642c87fc7b5e88a4b9c52bc72ad5ce29
         defaultValue: {fileID: 0}
---- !u!114 &-1324826675992587931
+--- !u!114 &-2703269495791843716
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -110,17 +160,56 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 494d551868207cd4ea946853a5e1a4b9, type: 3}
-  m_Name: SelectionGroupUnionNode
+  m_Script: {fileID: 11500000, guid: 21162ba1656312545a8e6ef3bdae7d03, type: 3}
+  m_Name: SelectionGroupColorRenderNode
   m_EditorClassIdentifier: 
-  guid: d1033e7f-1a28-4fad-abaa-a4174bab14e7
+  guid: 0bfd6ec3-5d1f-4a07-9b22-fd6a91dbde9f
   groupGuid: 
-  position: {x: 65.71429, y: -236.57143}
+  position: {x: 1112, y: -3557.3333}
   renderEnabled: 1
-  title: SelectionGroupUnionNode
+  title: SelectionGroupColorRenderNode
   isPinned: 0
   pinnedPosition: {x: 0, y: 0}
   portedFieldsContainer: []
+  size: {x: 1920, y: 1080}
+  camera:
+    exposedName: a6e2af2085499a14687ceb6c8e4a9113
+    defaultValue: {fileID: 0}
+  m_clearFlags:
+    overrideState: 1
+    value: 2
+  m_backgroundColor:
+    overrideState: 1
+    value: {r: 0, g: 0, b: 0, a: 0}
+  m_globalVolume:
+    overrideState: 1
+    value: {fileID: 0}
+  m_defaultGroupColor: {r: 1, g: 1, b: 1, a: 1}
+  m_objectColor:
+    overrideState: 0
+    value: {r: 1, g: 1, b: 1, a: 1}
+  m_cullMode: 0
+  m_includeChildRenderers: 1
+  m_trimWithUnselectedObjs: 1
+  output: {fileID: 0}
+--- !u!114 &-1812908324240179292
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd54056a23d0e6e42ac3033150305e31, type: 3}
+  m_Name: '8a72e1ed-cb5b-4fa2-a667-922be5a102f8: SelectionGroupNode.output -> MaterialIDRenderingNode.objects'
+  m_EditorClassIdentifier: 
+  input: {fileID: 0}
+  output: {fileID: -7120650901348607724}
+  inputFieldName: objects
+  outputFieldName: output
+  guid: 8a72e1ed-cb5b-4fa2-a667-922be5a102f8
+  useProperty: 0
 --- !u!114 &-1231764225901278633
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -135,7 +224,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   guid: b4cb03a4-79e8-4bfb-bb2c-5bfa387f72df
   groupGuid: 
-  position: {x: 714.8571, y: -466.2857}
+  position: {x: 1285.1428, y: -168}
   renderEnabled: 1
   title: RenderingNode
   isPinned: 0
@@ -214,21 +303,20 @@ MonoBehaviour:
   - {fileID: -1231764225901278633}
   - {fileID: 7824192794318612158}
   - {fileID: -4510836818760051944}
-  - {fileID: -1324826675992587931}
   - {fileID: -545192623987148941}
+  - {fileID: -7120650901348607724}
+  - {fileID: 4323481114127198635}
+  - {fileID: -2703269495791843716}
+  - {fileID: 443877347008045187}
   edges:
-  - {fileID: 868237814379142166}
-  - {fileID: -6513862926046392273}
-  - {fileID: -4702095332519796051}
-  - {fileID: 765188964089201562}
-  - {fileID: 1311903242960878564}
-  layers:
-  - {fileID: -6201517351742306253}
+  - {fileID: 1553302684294473319}
+  - {fileID: -7606637220404121202}
+  layers: []
   groups: []
-  layerStackPosition: {x: 1175.4286, y: -243.42857}
+  layerStackPosition: {x: 1538, y: -4085.3333}
   m_isInitialized: 1
   _compositorGraphVersion: 1
---- !u!114 &765188964089201562
+--- !u!114 &45281061550072626
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -237,16 +325,37 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dd54056a23d0e6e42ac3033150305e31, type: 3}
-  m_Name: '14068ef8-51d4-4b0d-97b9-ae3df654a4c1: SelectionGroupNode.output -> RenderingNode.lights'
+  m_Script: {fileID: 11500000, guid: 8a77c2cc82f3b1c4bb8465dc3771ca64, type: 3}
+  m_Name: MaterialIDRenderingNode
   m_EditorClassIdentifier: 
-  input: {fileID: -1231764225901278633}
-  output: {fileID: -545192623987148941}
-  inputFieldName: lights
-  outputFieldName: output
-  guid: 14068ef8-51d4-4b0d-97b9-ae3df654a4c1
-  useProperty: 0
---- !u!114 &868237814379142166
+  guid: 6e35e41d-eafc-42b6-ae7a-a487ea87ef46
+  groupGuid: 
+  position: {x: 838.66614, y: -3605.3335}
+  renderEnabled: 1
+  title: MaterialIDRenderingNode
+  isPinned: 0
+  pinnedPosition: {x: 0, y: 0}
+  portedFieldsContainer: []
+  size: {x: 1920, y: 1080}
+  camera:
+    exposedName: 2e0fab1d925c087489b8421ceb88caae
+    defaultValue: {fileID: 0}
+  m_clearFlags:
+    overrideState: 1
+    value: 2
+  m_backgroundColor:
+    overrideState: 1
+    value: {r: 0, g: 0, b: 0, a: 0}
+  m_materialIDGroup:
+    overrideState: 1
+    value: {fileID: 11400000, guid: ea3d790a19fafb84290f85c8309d667a, type: 2}
+  m_globalVolume:
+    overrideState: 1
+    value: {fileID: 0}
+  m_defaultColor: {r: 0, g: 0, b: 0, a: 0}
+  m_cullMode: 0
+  output: {fileID: 0}
+--- !u!114 &443877347008045187
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -255,16 +364,26 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dd54056a23d0e6e42ac3033150305e31, type: 3}
-  m_Name: '30d09e00-d1e4-46b0-ae95-a16410449a04: SelectionGroupNode.output -> SelectionGroupUnionNode.groupA'
+  m_Script: {fileID: 11500000, guid: d734242960cc7c54d99e327ba532d9ae, type: 3}
+  m_Name: SelectionGroupNode
   m_EditorClassIdentifier: 
-  input: {fileID: -1324826675992587931}
-  output: {fileID: 7824192794318612158}
-  inputFieldName: groupA
-  outputFieldName: output
-  guid: 30d09e00-d1e4-46b0-ae95-a16410449a04
-  useProperty: 0
---- !u!114 &1311903242960878564
+  guid: ae101c2b-53b5-4485-a603-962f4dadc96b
+  groupGuid: 
+  position: {x: 1234, y: -3808.6665}
+  renderEnabled: 1
+  title: SelectionGroupNode
+  isPinned: 0
+  pinnedPosition: {x: 0, y: 0}
+  portedFieldsContainer: []
+  group:
+    exposedName: 
+    defaultValue: {fileID: 0}
+  m_groupReferenceList:
+    m_groupReferences:
+    - m_exposedRef:
+        exposedName: d1d370f1637fd7943903ca342aeb5dff
+        defaultValue: {fileID: 0}
+--- !u!114 &1553302684294473319
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -274,14 +393,154 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dd54056a23d0e6e42ac3033150305e31, type: 3}
-  m_Name: '1ff8e458-0a7b-4cc2-8815-229294c52726: RenderingNode.output -> LayerNode.input'
+  m_Name: 'b62fdcf1-19bd-4c57-a86c-e93d7d4ccfb7: MaterialIDRenderingNode.output ->
+    LayerNode.input'
   m_EditorClassIdentifier: 
   input: {fileID: -6201517351742306253}
-  output: {fileID: -1231764225901278633}
+  output: {fileID: 4323481114127198635}
   inputFieldName: input
   outputFieldName: output
-  guid: 1ff8e458-0a7b-4cc2-8815-229294c52726
+  guid: b62fdcf1-19bd-4c57-a86c-e93d7d4ccfb7
   useProperty: 0
+--- !u!114 &3237156991025876236
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a77c2cc82f3b1c4bb8465dc3771ca64, type: 3}
+  m_Name: MaterialIDRenderingNode
+  m_EditorClassIdentifier: 
+  guid: 56395c42-834e-4338-85a6-5d11453dd25d
+  groupGuid: 
+  position: {x: 422, y: -2530.6665}
+  renderEnabled: 1
+  title: MaterialIDRenderingNode
+  isPinned: 0
+  pinnedPosition: {x: 0, y: 0}
+  portedFieldsContainer: []
+  size: {x: 1920, y: 1080}
+  camera:
+    exposedName: 6f247f326bae4024abdb89590656b10d
+    defaultValue: {fileID: 0}
+  m_clearFlags:
+    overrideState: 1
+    value: 2
+  m_backgroundColor:
+    overrideState: 1
+    value: {r: 0, g: 0, b: 0, a: 0}
+  m_materialIDGroup:
+    overrideState: 1
+    value: {fileID: 0}
+  m_globalVolume:
+    overrideState: 1
+    value: {fileID: 0}
+  m_defaultColor: {r: 0, g: 0, b: 0, a: 0}
+  m_cullMode: 0
+  output: {fileID: 0}
+--- !u!114 &4323481114127198635
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a77c2cc82f3b1c4bb8465dc3771ca64, type: 3}
+  m_Name: MaterialIDRenderingNode
+  m_EditorClassIdentifier: 
+  guid: 4f3215a5-926e-4c2f-9ff7-ef9ebe173636
+  groupGuid: 
+  position: {x: 1824.6666, y: -4338}
+  renderEnabled: 1
+  title: MaterialIDRenderingNode
+  isPinned: 0
+  pinnedPosition: {x: 0, y: 0}
+  portedFieldsContainer: []
+  size: {x: 1920, y: 1080}
+  camera:
+    exposedName: 16c3974528948d348be1632f4d2fe00b
+    defaultValue: {fileID: 0}
+  m_clearFlags:
+    overrideState: 1
+    value: 1
+  m_backgroundColor:
+    overrideState: 1
+    value: {r: 0, g: 0, b: 0, a: 0}
+  m_materialIDGroup:
+    overrideState: 1
+    value: {fileID: 11400000, guid: ea3d790a19fafb84290f85c8309d667a, type: 2}
+  m_globalVolume:
+    overrideState: 1
+    value: {fileID: 0}
+  m_defaultColor: {r: 0, g: 0, b: 0, a: 0}
+  m_cullMode: 1
+  output: {fileID: 0}
+--- !u!114 &4643995602154149487
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: ObjectIDColorRenderingNode
+  m_EditorClassIdentifier: Unity.VisualCompositor:Unity.VisualCompositor:ObjectIDColorRenderingNode
+  guid: 569d6f66-b08c-448d-a404-8646091ed65b
+  groupGuid: 
+  position: {x: 1250.6666, y: -3636}
+  renderEnabled: 1
+  title: ObjectIDColorRenderingNode
+  isPinned: 0
+  pinnedPosition: {x: 0, y: 0}
+  _nodeUIState:
+    m_isExpanded: 1
+  portedFieldsContainer: []
+  m_compositor: {fileID: 0}
+  size: {x: 1920, y: 1080}
+  camera:
+    exposedName: ba1dadae3c010044090eacf35ebe5e5d
+    defaultValue: {fileID: 0}
+  m_clearFlags:
+    overrideState: 1
+    value: 2
+  m_backgroundColor:
+    overrideState: 1
+    value:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  m_globalVolume:
+    overrideState: 1
+    value: {fileID: 0}
+  m_defaultGroupColor:
+    r: 0
+    g: 0
+    b: 0
+    a: 0
+  m_objectColor:
+    overrideState: 0
+    value:
+      r: 1
+      g: 1
+      b: 1
+      a: 1
+  m_cullMode: 0
+  m_includeChildRenderers: 1
+  m_trimWithUnselectedObjs: 1
+  output: {fileID: 0}
+  m_cameraComponent: {fileID: 0}
+  m_defaultColorMaterial: {fileID: 0}
+  m_trimMaterial: {fileID: 0}
+  cameraData: {fileID: 0}
+  m_objectIdColorGroup: {fileID: 0}
 --- !u!114 &7824192794318612158
 MonoBehaviour:
   m_ObjectHideFlags: 0

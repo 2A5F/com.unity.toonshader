@@ -1,0 +1,1868 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9149300804676042623
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 182d361ee88e6fe44b4114b089562f21, type: 3}
+  m_Name: DoubleShadeWithFeather
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_guid: 5c580d7997c445a980ea21f29142d1d7
+  m_material: {fileID: 2100000, guid: 5c580d7997c445a980ea21f29142d1d7, type: 2}
+  m_color: {r: 0.36071858, g: 0.59283864, b: 0.5035726, a: 0.56742585}
+--- !u!114 &-8969915028874387007
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 182d361ee88e6fe44b4114b089562f21, type: 3}
+  m_Name: hair_main_Zofs
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_guid: 694a92fa89b548e79bfccbc3e52f6933
+  m_material: {fileID: 2100000, guid: 694a92fa89b548e79bfccbc3e52f6933, type: 2}
+  m_color: {r: 0.41129416, g: 0.53792244, b: 0.6093261, a: 0.8952547}
+--- !u!114 &-8878902408595708153
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 182d361ee88e6fe44b4114b089562f21, type: 3}
+  m_Name: CellTouch_ToonShader_Face_Firefly
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_guid: 638c61e2b61b45a089691de7d0697b24
+  m_material: {fileID: 2100000, guid: 638c61e2b61b45a089691de7d0697b24, type: 2}
+  m_color: {r: 0.38886082, g: 0.71135366, b: 0.5367602, a: 0.8141095}
+--- !u!114 &-8419456416458336764
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 182d361ee88e6fe44b4114b089562f21, type: 3}
+  m_Name: ToonShader_Main
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_guid: bc3c04327ada43e89c24dee39a22ed7b
+  m_material: {fileID: 2100000, guid: bc3c04327ada43e89c24dee39a22ed7b, type: 2}
+  m_color: {r: 0.73529077, g: 0.47989297, b: 0.6099376, a: 0.6020954}
+--- !u!114 &-8082685999617337535
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 182d361ee88e6fe44b4114b089562f21, type: 3}
+  m_Name: Cube_HardEdge
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_guid: dfe3366ac5da498bad926310b84216af
+  m_material: {fileID: 2100000, guid: dfe3366ac5da498bad926310b84216af, type: 2}
+  m_color: {r: 0.8745607, g: 0.7728621, b: 0.67801493, a: 0.71975845}
+--- !u!114 &-7969527639061696953
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 182d361ee88e6fe44b4114b089562f21, type: 3}
+  m_Name: Image White
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_guid: 179a0095e57747c0a5d8bd230c2fca6e
+  m_material: {fileID: 2100000, guid: 179a0095e57747c0a5d8bd230c2fca6e, type: 2}
+  m_color: {r: 0.09219364, g: 0.89635134, b: 0.6478384, a: 0.04760423}
+--- !u!114 &-7658240898327180893
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 182d361ee88e6fe44b4114b089562f21, type: 3}
+  m_Name: HDRPTestMaterialWhite
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_guid: 89536924da964493a7f12dee8a0aeddc
+  m_material: {fileID: 2100000, guid: 89536924da964493a7f12dee8a0aeddc, type: 2}
+  m_color: {r: 0.536429, g: 0.85385543, b: 0.65602386, a: 0.5392293}
+--- !u!114 &-7542685019549994974
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 182d361ee88e6fe44b4114b089562f21, type: 3}
+  m_Name: Plane
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_guid: dd4442fbd50c4e28a1fa06275b40f369
+  m_material: {fileID: 2100000, guid: dd4442fbd50c4e28a1fa06275b40f369, type: 2}
+  m_color: {r: 0.86432284, g: 0.832219, b: 0.6327213, a: 0.35645983}
+--- !u!114 &-7354838860097357498
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 182d361ee88e6fe44b4114b089562f21, type: 3}
+  m_Name: def_mat
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_guid: e045e64057b349eaabd9a108b9287e25
+  m_material: {fileID: 2100000, guid: e045e64057b349eaabd9a108b9287e25, type: 2}
+  m_color: {r: 0.87606657, g: 0.34257948, b: 0.6712895, a: 0.7232741}
+--- !u!114 &-7247403374761322304
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 182d361ee88e6fe44b4114b089562f21, type: 3}
+  m_Name: hair_noHL
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_guid: 16908dafe29d474ab4cfa53eae15cf28
+  m_material: {fileID: 2100000, guid: 16908dafe29d474ab4cfa53eae15cf28, type: 2}
+  m_color: {r: 0.08814321, g: 0.88521236, b: 0.7062934, a: 0.6800203}
+--- !u!114 &-6571988622542922988
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 182d361ee88e6fe44b4114b089562f21, type: 3}
+  m_Name: CalibrationRGBScale
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_guid: 2f914313d4464e1a911ced17f3963853
+  m_material: {fileID: 2100000, guid: 2f914313d4464e1a911ced17f3963853, type: 2}
+  m_color: {r: 0.18581027, g: 0.82919776, b: 0.5668476, a: 0.9515109}
+--- !u!114 &-6529632169369219656
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 182d361ee88e6fe44b4114b089562f21, type: 3}
+  m_Name: ToonShader_Eyebrow_StencilMask
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_guid: d5e2a8fe8b7541a4811b3c3b01e66bad
+  m_material: {fileID: 2100000, guid: d5e2a8fe8b7541a4811b3c3b01e66bad, type: 2}
+  m_color: {r: 0.8354898, g: 0.54475796, b: 0.5043218, a: 0.007422189}
+--- !u!114 &-5960694416795137892
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 182d361ee88e6fe44b4114b089562f21, type: 3}
+  m_Name: CellTouch_ToonShader_Hair_Clipping_Firefly(TESS)
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_guid: c7fcc890fe22c4225860a14a0cff7a4e
+  m_material: {fileID: 2100000, guid: c7fcc890fe22c4225860a14a0cff7a4e, type: 2}
+  m_color: {r: 0.78120095, g: 0.992718, b: 0.34522447, a: 0.05077328}
+--- !u!114 &-5559172721433820043
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 182d361ee88e6fe44b4114b089562f21, type: 3}
+  m_Name: CalibrationFloor
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_guid: e0cdeb2bb0eb4c3ea332d690e2fd81be
+  m_material: {fileID: 2100000, guid: e0cdeb2bb0eb4c3ea332d690e2fd81be, type: 2}
+  m_color: {r: 0.87814206, g: 0.69109035, b: 0.6374945, a: 0.8866807}
+--- !u!114 &-5349073900720851325
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 182d361ee88e6fe44b4114b089562f21, type: 3}
+  m_Name: Emerald
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_guid: 7975800bdc994e1fa80ede608793cc5b
+  m_material: {fileID: 2100000, guid: 7975800bdc994e1fa80ede608793cc5b, type: 2}
+  m_color: {r: 0.47444916, g: 0.86171424, b: 0.65647686, a: 0.52959895}
+--- !u!114 &-4766243735396213931
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 182d361ee88e6fe44b4114b089562f21, type: 3}
+  m_Name: CellTouch_ToonShader_Fhair_StencilOut_RTHS
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_guid: 1cc8ce26fd49413ba4e65cbec1bd20ce
+  m_material: {fileID: 2100000, guid: 1cc8ce26fd49413ba4e65cbec1bd20ce, type: 2}
+  m_color: {r: 0.112439044, g: 0.989399, b: 0.64414006, a: 0.7567921}
+--- !u!114 &-4457490851284128406
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 182d361ee88e6fe44b4114b089562f21, type: 3}
+  m_Name: MatCapMask_Mirror
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_guid: 1250b6d1daba4fdbbed988205a246c9c
+  m_material: {fileID: 2100000, guid: 1250b6d1daba4fdbbed988205a246c9c, type: 2}
+  m_color: {r: 0.0715441, g: 0.8544054, b: 0.74550676, a: 0.35211828}
+--- !u!114 &-4344514310977226148
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 182d361ee88e6fe44b4114b089562f21, type: 3}
+  m_Name: ToonShader_Face
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_guid: fd52a87d1e9e4c75a4f2cdaed51ad46b
+  m_material: {fileID: 2100000, guid: fd52a87d1e9e4c75a4f2cdaed51ad46b, type: 2}
+  m_color: {r: 0.9895425, g: 0.11960295, b: 0.6443299, a: 0.8324406}
+--- !u!114 &-4212626265598046672
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 182d361ee88e6fe44b4114b089562f21, type: 3}
+  m_Name: ToonShader_Hair_Clipping_ABN_FrontCulling
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_guid: 83d5f36d45494301b34f7c53faa9d644
+  m_material: {fileID: 2100000, guid: 83d5f36d45494301b34f7c53faa9d644, type: 2}
+  m_color: {r: 0.51498336, g: 0.27064914, b: 0.7004316, a: 0.979154}
+--- !u!114 &-4004920716613890951
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 182d361ee88e6fe44b4114b089562f21, type: 3}
+  m_Name: ToonShader_Head_Clipping
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_guid: ee6298df918643dba9fa6403d6dca46d
+  m_material: {fileID: 2100000, guid: ee6298df918643dba9fa6403d6dca46d, type: 2}
+  m_color: {r: 0.931192, g: 0.568455, b: 0.6639769, a: 0.8393042}
+--- !u!114 &-3902509974480000014
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 182d361ee88e6fe44b4114b089562f21, type: 3}
+  m_Name: Emissive_Standard
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_guid: e478a72145824b1ba6ae2f901c93d6d7
+  m_material: {fileID: 2100000, guid: e478a72145824b1ba6ae2f901c93d6d7, type: 2}
+  m_color: {r: 0.892466, g: 0.27151936, b: 0.6510954, a: 0.11163085}
+--- !u!114 &-3832754921401693586
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 182d361ee88e6fe44b4114b089562f21, type: 3}
+  m_Name: ToonShader_Main_ABN
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_guid: a7bd77101af14e8095b9ddc4b310ab75
+  m_material: {fileID: 2100000, guid: a7bd77101af14e8095b9ddc4b310ab75, type: 2}
+  m_color: {r: 0.65523475, g: 0.10524455, b: 0.58486736, a: 0.6994731}
+--- !u!114 &-3832444770242912503
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 182d361ee88e6fe44b4114b089562f21, type: 3}
+  m_Name: Mirror
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_guid: 6eb9cd5a7ef5496aa2654781ba7af7f4
+  m_material: {fileID: 2100000, guid: 6eb9cd5a7ef5496aa2654781ba7af7f4, type: 2}
+  m_color: {r: 0.43252262, g: 0.49593028, b: 0.6343579, a: 0.72843885}
+--- !u!114 &-3719782007250652278
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 182d361ee88e6fe44b4114b089562f21, type: 3}
+  m_Name: NightSky
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_guid: d206f43b7d5f4410a86f29d743213186
+  m_material: {fileID: 2100000, guid: d206f43b7d5f4410a86f29d743213186, type: 2}
+  m_color: {r: 0.8204186, g: 0.4897349, b: 0.6579462, a: 0.26222524}
+--- !u!114 &-3597040554485345664
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 182d361ee88e6fe44b4114b089562f21, type: 3}
+  m_Name: NromalMap_ST
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_guid: c13319dfff364bb4867aa1b57480e21d
+  m_material: {fileID: 2100000, guid: c13319dfff364bb4867aa1b57480e21d, type: 2}
+  m_color: {r: 0.754686, g: 0.99692225, b: 0.5253087, a: 0.4550916}
+--- !u!114 &-3418665886036393667
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 182d361ee88e6fe44b4114b089562f21, type: 3}
+  m_Name: sphere_Green
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_guid: 692a3885c73f42e6a999ee4fcf11ecda
+  m_material: {fileID: 2100000, guid: 692a3885c73f42e6a999ee4fcf11ecda, type: 2}
+  m_color: {r: 0.4108005, g: 0.77830905, b: 0.66250503, a: 0.8088673}
+--- !u!114 &-3310432823431780713
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 182d361ee88e6fe44b4114b089562f21, type: 3}
+  m_Name: Pure White
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_guid: 6729ee3360fc4d0494ff1763977fd5c5
+  m_material: {fileID: 2100000, guid: 6729ee3360fc4d0494ff1763977fd5c5, type: 2}
+  m_color: {r: 0.40298355, g: 0.3788498, b: 0.58201736, a: 0.5917944}
+--- !u!114 &-3292294123390876892
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 182d361ee88e6fe44b4114b089562f21, type: 3}
+  m_Name: ToonShader_Fhair_StencilOut_ABN
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_guid: a0a5f5521daf49aab933b840cc8df1c0
+  m_material: {fileID: 2100000, guid: a0a5f5521daf49aab933b840cc8df1c0, type: 2}
+  m_color: {r: 0.6275323, g: 0.11595593, b: 0.7234454, a: 0.7990409}
+--- !u!114 &-2913777550140625298
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 182d361ee88e6fe44b4114b089562f21, type: 3}
+  m_Name: CellTouch_ToonShader_Main
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_guid: f9152f037ecc4738ada2e22badca522e
+  m_material: {fileID: 2100000, guid: f9152f037ecc4738ada2e22badca522e, type: 2}
+  m_color: {r: 0.9729795, g: 0.49530452, b: 0.67826664, a: 0.6788684}
+--- !u!114 &-2907676981527191758
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 182d361ee88e6fe44b4114b089562f21, type: 3}
+  m_Name: CellTouch_ToonShader_Face_mirror
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_guid: 1e94609b2c56ddc4dac8f05832a0119c
+  m_material: {fileID: 2100000, guid: 1e94609b2c56ddc4dac8f05832a0119c, type: 2}
+  m_color: {r: 0.11945156, g: 0.17320047, b: 0.85462856, a: 0.19775495}
+--- !u!114 &-2789106045570833144
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 182d361ee88e6fe44b4114b089562f21, type: 3}
+  m_Name: TsObj
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_guid: 231ec0140d4f2fe41b4a335518d9e19b
+  m_material: {fileID: 2100000, guid: 231ec0140d4f2fe41b4a335518d9e19b, type: 2}
+  m_color: {r: 0.13718796, g: 0.051989548, b: 0.10660096, a: 0.097074606}
+--- !u!114 &-2599637188065756174
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 182d361ee88e6fe44b4114b089562f21, type: 3}
+  m_Name: FaceOrientation
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_guid: c460d97395ec46c9bca336ede0eba2db
+  m_material: {fileID: 2100000, guid: c460d97395ec46c9bca336ede0eba2db, type: 2}
+  m_color: {r: 0.7671028, g: 0.58563656, b: 0.73686546, a: 0.87859553}
+--- !u!114 &-2467703091070200405
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 182d361ee88e6fe44b4114b089562f21, type: 3}
+  m_Name: UTS_Material
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_guid: 7e6539c9ff8041d382b9414e4164d51f
+  m_material: {fileID: 2100000, guid: 7e6539c9ff8041d382b9414e4164d51f, type: 2}
+  m_color: {r: 0.4937321, g: 0.9980508, b: 0.51063925, a: 0.25544482}
+--- !u!114 &-2269530723430054252
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 182d361ee88e6fe44b4114b089562f21, type: 3}
+  m_Name: MatCapMask
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_guid: 1be4ebdf9a82494ba90ca952ef1587c1
+  m_material: {fileID: 2100000, guid: 1be4ebdf9a82494ba90ca952ef1587c1, type: 2}
+  m_color: {r: 0.10896181, g: 0.6035505, b: 0.6603494, a: 0.9339223}
+--- !u!114 &-1810936011900394254
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 182d361ee88e6fe44b4114b089562f21, type: 3}
+  m_Name: IndentA
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_guid: 9da5eeb38b2a4a2da9f0c803f797e842
+  m_material: {fileID: 2100000, guid: 9da5eeb38b2a4a2da9f0c803f797e842, type: 2}
+  m_color: {r: 0.6158132, g: 0.54361403, b: 0.6638303, a: 0.96716166}
+--- !u!114 &-1677190477099181046
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 182d361ee88e6fe44b4114b089562f21, type: 3}
+  m_Name: ShadingGradeMap
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_guid: 2963179ab8404328b70e39ff09322563
+  m_material: {fileID: 2100000, guid: 2963179ab8404328b70e39ff09322563, type: 2}
+  m_color: {r: 0.16166827, g: 0.71973056, b: 0.71506083, a: 0.035921417}
+--- !u!114 &-1590547146980704569
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 182d361ee88e6fe44b4114b089562f21, type: 3}
+  m_Name: ToonShader_Eye_Clipping_StencilMask
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_guid: 858aa068595e46478ce22b8f1d25d3b9
+  m_material: {fileID: 2100000, guid: 858aa068595e46478ce22b8f1d25d3b9, type: 2}
+  m_color: {r: 0.5216465, g: 0.34909478, b: 0.5503261, a: 0.11385845}
+--- !u!114 &-1572584537906619770
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 182d361ee88e6fe44b4114b089562f21, type: 3}
+  m_Name: ToonShader_Eye_Clipping_StencilMask_ABN
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_guid: ffa16d1d113f4bd5b4471160c6111c9b
+  m_material: {fileID: 2100000, guid: ffa16d1d113f4bd5b4471160c6111c9b, type: 2}
+  m_color: {r: 0.9985569, g: 0.067372076, b: 0.7042094, a: 0.7736986}
+--- !u!114 &-1361451458731708941
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 182d361ee88e6fe44b4114b089562f21, type: 3}
+  m_Name: Flesh2
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_guid: d141ea4230294af59af64bbd829d9936
+  m_material: {fileID: 2100000, guid: d141ea4230294af59af64bbd829d9936, type: 2}
+  m_color: {r: 0.817412, g: 0.18813008, b: 0.6053207, a: 0.51021725}
+--- !u!114 &-1240751681682391258
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 182d361ee88e6fe44b4114b089562f21, type: 3}
+  m_Name: CellTouch_ToonShader_Hair_Clipping_Firefly
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_guid: a5646a8e26cf47a2b603300b9b379499
+  m_material: {fileID: 2100000, guid: a5646a8e26cf47a2b603300b9b379499, type: 2}
+  m_color: {r: 0.6460635, g: 0.15160035, b: 0.71098614, a: 0.60631686}
+--- !u!114 &-1159491642938576443
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 182d361ee88e6fe44b4114b089562f21, type: 3}
+  m_Name: ToonShader_Head_Clipping_Emissive
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_guid: 036230ee505f40d8828cf99b06120909
+  m_material: {fileID: 2100000, guid: 036230ee505f40d8828cf99b06120909, type: 2}
+  m_color: {r: 0.013217028, g: 0.31395346, b: 0.50996363, a: 0.023712697}
+--- !u!114 &-1126538691531933167
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 182d361ee88e6fe44b4114b089562f21, type: 3}
+  m_Name: CellTouch_ToonShader_Head_Clipping_RTHS
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_guid: f4b279fe3a384dd18c2a49e64e8ea39b
+  m_material: {fileID: 2100000, guid: f4b279fe3a384dd18c2a49e64e8ea39b, type: 2}
+  m_color: {r: 0.95584834, g: 0.22742163, b: 0.5475203, a: 0.306864}
+--- !u!114 &-1107690008944431068
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 182d361ee88e6fe44b4114b089562f21, type: 3}
+  m_Name: ToonShader_Eye_Clipping_StencilMask_RTHS
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_guid: dfac0b7373b04f7e84590e4f4bb2cf56
+  m_material: {fileID: 2100000, guid: dfac0b7373b04f7e84590e4f4bb2cf56, type: 2}
+  m_color: {r: 0.8737189, g: 0.45190904, b: 0.51698387, a: 0.29569718}
+--- !u!114 &-840497683768620304
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 182d361ee88e6fe44b4114b089562f21, type: 3}
+  m_Name: ToonShader_Fhair_StencilOut
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_guid: 004b214ebf4e42e192ea2f811c02acdf
+  m_material: {fileID: 2100000, guid: 004b214ebf4e42e192ea2f811c02acdf, type: 2}
+  m_color: {r: 0.0011463943, g: 0.7472879, b: 0.5738859, a: 0.10941582}
+--- !u!114 &-730997665199501232
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 182d361ee88e6fe44b4114b089562f21, type: 3}
+  m_Name: DaytimeSkybox
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_guid: 20a0e3d0021c4689907b00908fb73786
+  m_material: {fileID: 2100000, guid: 20a0e3d0021c4689907b00908fb73786, type: 2}
+  m_color: {r: 0.12745498, g: 0.00824395, b: 0.5643769, a: 0.56138945}
+--- !u!114 &-337625935483346160
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 182d361ee88e6fe44b4114b089562f21, type: 3}
+  m_Name: Capsule
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_guid: bb7f5ce620f221f438aa683eb73e7d71
+  m_material: {fileID: 2100000, guid: bb7f5ce620f221f438aa683eb73e7d71, type: 2}
+  m_color: {r: 0.73241216, g: 0.12869465, b: 0.22135021, a: 0.71579725}
+--- !u!114 &-46084718826360281
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 182d361ee88e6fe44b4114b089562f21, type: 3}
+  m_Name: Ground
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_guid: 3f31bc8ee0dd4d5cb9aa92a770456b56
+  m_material: {fileID: 2100000, guid: 3f31bc8ee0dd4d5cb9aa92a770456b56, type: 2}
+  m_color: {r: 0.24685267, g: 0.8783768, b: 0.725259, a: 0.43855926}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f2f2519cfdab8a44a8cdbe2c69f0d74, type: 3}
+  m_Name: MaterialIDGroup
+  m_EditorClassIdentifier: 
+  m_materialIDColors:
+  - {fileID: 4323499676035922494}
+  - {fileID: -5559172721433820043}
+  - {fileID: 1462208084969306421}
+  - {fileID: 7642513529532282112}
+  - {fileID: -6571988622542922988}
+  - {fileID: 361262664431497969}
+  - {fileID: -337625935483346160}
+  - {fileID: 1123307331948064495}
+  - {fileID: 6225825443846166464}
+  - {fileID: -8878902408595708153}
+  - {fileID: -2907676981527191758}
+  - {fileID: 1264402402918798042}
+  - {fileID: -4766243735396213931}
+  - {fileID: 2985028133885276189}
+  - {fileID: 9003789669414861466}
+  - {fileID: 8011965020285330203}
+  - {fileID: -1240751681682391258}
+  - {fileID: -5960694416795137892}
+  - {fileID: 5899605550224066401}
+  - {fileID: 3256684356084863832}
+  - {fileID: 1402177045390985746}
+  - {fileID: -1126538691531933167}
+  - {fileID: -2913777550140625298}
+  - {fileID: 8337503457601002997}
+  - {fileID: 548858607831562852}
+  - {fileID: 2116799972431247170}
+  - {fileID: 8481086970270358236}
+  - {fileID: 2625882045300868823}
+  - {fileID: -8082685999617337535}
+  - {fileID: -730997665199501232}
+  - {fileID: -7354838860097357498}
+  - {fileID: -9149300804676042623}
+  - {fileID: -5349073900720851325}
+  - {fileID: 9108878318318736535}
+  - {fileID: 1330791411259945856}
+  - {fileID: 824368824970537052}
+  - {fileID: 9122275382557879051}
+  - {fileID: -3902509974480000014}
+  - {fileID: 1951034943143526445}
+  - {fileID: 8335138158926214979}
+  - {fileID: -2599637188065756174}
+  - {fileID: 1518209582159369882}
+  - {fileID: -1361451458731708941}
+  - {fileID: 2058460978089081378}
+  - {fileID: 54301870599986631}
+  - {fileID: 2396680226179257199}
+  - {fileID: 6390081855428619628}
+  - {fileID: -46084718826360281}
+  - {fileID: 8801397628689307041}
+  - {fileID: -8969915028874387007}
+  - {fileID: -7247403374761322304}
+  - {fileID: 1886140333825499374}
+  - {fileID: -7658240898327180893}
+  - {fileID: 3517406216551176508}
+  - {fileID: -7969527639061696953}
+  - {fileID: -1810936011900394254}
+  - {fileID: -2269530723430054252}
+  - {fileID: -4457490851284128406}
+  - {fileID: -3832444770242912503}
+  - {fileID: 3276379916523630483}
+  - {fileID: -3719782007250652278}
+  - {fileID: -3597040554485345664}
+  - {fileID: 909467224444676533}
+  - {fileID: -7542685019549994974}
+  - {fileID: 1064905337983597957}
+  - {fileID: 2582892443719514449}
+  - {fileID: -3310432823431780713}
+  - {fileID: 2698860805421295307}
+  - {fileID: 4339335030149911212}
+  - {fileID: 1011943987032015846}
+  - {fileID: 1829511686077356644}
+  - {fileID: 4034397767044812382}
+  - {fileID: -1677190477099181046}
+  - {fileID: 172705814532033307}
+  - {fileID: 8441861019423138417}
+  - {fileID: -3418665886036393667}
+  - {fileID: 6956136113268484063}
+  - {fileID: -1590547146980704569}
+  - {fileID: -1572584537906619770}
+  - {fileID: 6298067753813360256}
+  - {fileID: -1107690008944431068}
+  - {fileID: -6529632169369219656}
+  - {fileID: 1410068247795286683}
+  - {fileID: 6653051129764755132}
+  - {fileID: -4344514310977226148}
+  - {fileID: 852828629684819129}
+  - {fileID: -840497683768620304}
+  - {fileID: -3292294123390876892}
+  - {fileID: 3172913404460922798}
+  - {fileID: 7947749800886267007}
+  - {fileID: 8159257710535799341}
+  - {fileID: -4212626265598046672}
+  - {fileID: -4004920716613890951}
+  - {fileID: 1726880905875300855}
+  - {fileID: -1159491642938576443}
+  - {fileID: -8419456416458336764}
+  - {fileID: -3832754921401693586}
+  - {fileID: 4059535116032720469}
+  - {fileID: 5809832113979806227}
+  - {fileID: -2789106045570833144}
+  - {fileID: 8774120023820315019}
+  - {fileID: 7176580002577944431}
+  - {fileID: -2467703091070200405}
+  - {fileID: 5626025923014754057}
+  - {fileID: 358458325515300680}
+  - {fileID: 2615549987111799409}
+  - {fileID: 894917460627908180}
+  - {fileID: 822478188047582471}
+  - {fileID: 9762299951464566}
+--- !u!114 &9762299951464566
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 182d361ee88e6fe44b4114b089562f21, type: 3}
+  m_Name: Yu_Face2
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_guid: 6518582be74646e58db6703e038d4812
+  m_material: {fileID: 2100000, guid: 6518582be74646e58db6703e038d4812, type: 2}
+  m_color: {r: 0.3949027, g: 0.9034161, b: 0.553565, a: 0.0138745345}
+--- !u!114 &54301870599986631
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 182d361ee88e6fe44b4114b089562f21, type: 3}
+  m_Name: Gray
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_guid: 767092eb0579443f9fce6e1575b09c5b
+  m_material: {fileID: 2100000, guid: 767092eb0579443f9fce6e1575b09c5b, type: 2}
+  m_color: {r: 0.46265525, g: 0.021381631, b: 0.6242436, a: 0.45972613}
+--- !u!114 &172705814532033307
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 182d361ee88e6fe44b4114b089562f21, type: 3}
+  m_Name: Silinder_HardEdge
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_guid: b83902e7aeea40c1a1ae7aec8df8eb07
+  m_material: {fileID: 2100000, guid: b83902e7aeea40c1a1ae7aec8df8eb07, type: 2}
+  m_color: {r: 0.7196199, g: 0.68326193, b: 0.6315686, a: 0.55457944}
+--- !u!114 &358458325515300680
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 182d361ee88e6fe44b4114b089562f21, type: 3}
+  m_Name: UTS2_Sample
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_guid: e033c5381cd04a7595e82da36e29b950
+  m_material: {fileID: 2100000, guid: e033c5381cd04a7595e82da36e29b950, type: 2}
+  m_color: {r: 0.87578994, g: 0.11255327, b: 0.58557403, a: 0.43032417}
+--- !u!114 &361262664431497969
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 182d361ee88e6fe44b4114b089562f21, type: 3}
+  m_Name: Capsule
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_guid: 5af7335ada9cf66478b5c19e2aa3eb5b
+  m_material: {fileID: 2100000, guid: 5af7335ada9cf66478b5c19e2aa3eb5b, type: 2}
+  m_color: {r: 0.3553345, g: 0.85395753, b: 0.47152337, a: 0.1665637}
+--- !u!114 &548858607831562852
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 182d361ee88e6fe44b4114b089562f21, type: 3}
+  m_Name: CellTouch_ToonShader_Main_Firefly(TESS)
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_guid: 8fbe2dbdb69cc42caa6cb375a7c552be
+  m_material: {fileID: 2100000, guid: 8fbe2dbdb69cc42caa6cb375a7c552be, type: 2}
+  m_color: {r: 0.56149566, g: 0.71332955, b: 0.6657211, a: 0.6553547}
+--- !u!114 &822478188047582471
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 182d361ee88e6fe44b4114b089562f21, type: 3}
+  m_Name: Yu_Face
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_guid: e21c70a08fe34963a0d6f0bcfe79202a
+  m_material: {fileID: 2100000, guid: e21c70a08fe34963a0d6f0bcfe79202a, type: 2}
+  m_color: {r: 0.8832465, g: 0.56206185, b: 0.62827975, a: 0.9940357}
+--- !u!114 &824368824970537052
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 182d361ee88e6fe44b4114b089562f21, type: 3}
+  m_Name: Emissive Orange
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_guid: 777aca6daf664195b72460243894f8be
+  m_material: {fileID: 2100000, guid: 777aca6daf664195b72460243894f8be, type: 2}
+  m_color: {r: 0.4667174, g: 0.6851541, b: 0.7153988, a: 0.22102313}
+--- !u!114 &852828629684819129
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 182d361ee88e6fe44b4114b089562f21, type: 3}
+  m_Name: ToonShader_Face_ABN
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_guid: 56135827bdeb4c649ad7c3aab1ea3463
+  m_material: {fileID: 2100000, guid: 56135827bdeb4c649ad7c3aab1ea3463, type: 2}
+  m_color: {r: 0.33623266, g: 0.7418716, b: 0.6048548, a: 0.6949799}
+--- !u!114 &894917460627908180
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 182d361ee88e6fe44b4114b089562f21, type: 3}
+  m_Name: White
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_guid: b79a8ea2fdf844dda69e5aa3e5ce1675
+  m_material: {fileID: 2100000, guid: b79a8ea2fdf844dda69e5aa3e5ce1675, type: 2}
+  m_color: {r: 0.7172021, g: 0.99206954, b: 0.6508538, a: 0.8976759}
+--- !u!114 &909467224444676533
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 182d361ee88e6fe44b4114b089562f21, type: 3}
+  m_Name: NromalMap_UST2
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_guid: e6ff684f5a8342a99665eab985095742
+  m_material: {fileID: 2100000, guid: e6ff684f5a8342a99665eab985095742, type: 2}
+  m_color: {r: 0.9023347, g: 0.35356537, b: 0.58749264, a: 0.51967376}
+--- !u!114 &1011943987032015846
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 182d361ee88e6fe44b4114b089562f21, type: 3}
+  m_Name: Red_Clipping
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_guid: 7ff96cc2769248b99da3bad6032521a3
+  m_material: {fileID: 2100000, guid: 7ff96cc2769248b99da3bad6032521a3, type: 2}
+  m_color: {r: 0.4998997, g: 0.4631696, b: 0.6157796, a: 0.01228533}
+--- !u!114 &1064905337983597957
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 182d361ee88e6fe44b4114b089562f21, type: 3}
+  m_Name: ProcedualSky
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_guid: b14962e126b34eec848ac3f206710216
+  m_material: {fileID: 2100000, guid: b14962e126b34eec848ac3f206710216, type: 2}
+  m_color: {r: 0.69252604, g: 0.15117353, b: 0.5177424, a: 0.025161868}
+--- !u!114 &1123307331948064495
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 182d361ee88e6fe44b4114b089562f21, type: 3}
+  m_Name: CellTouch_ToonShader_Face
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_guid: 96820072609c4bc6a1d26edb036b54c7
+  m_material: {fileID: 2100000, guid: 96820072609c4bc6a1d26edb036b54c7, type: 2}
+  m_color: {r: 0.58792114, g: 0.3773849, b: 0.6321172, a: 0.013356494}
+--- !u!114 &1264402402918798042
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 182d361ee88e6fe44b4114b089562f21, type: 3}
+  m_Name: CellTouch_ToonShader_Fhair_StencilOut
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_guid: 5712e3ab25394507aeb4f46bb76d0a3c
+  m_material: {fileID: 2100000, guid: 5712e3ab25394507aeb4f46bb76d0a3c, type: 2}
+  m_color: {r: 0.34013197, g: 0.14540511, b: 0.6824486, a: 0.71650755}
+--- !u!114 &1330791411259945856
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 182d361ee88e6fe44b4114b089562f21, type: 3}
+  m_Name: Emissive Blue
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_guid: c54f83f47ed2454e9d08e703b3e94437
+  m_material: {fileID: 2100000, guid: c54f83f47ed2454e9d08e703b3e94437, type: 2}
+  m_color: {r: 0.77074456, g: 0.495396, b: 0.6134171, a: 0.7027781}
+--- !u!114 &1402177045390985746
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 182d361ee88e6fe44b4114b089562f21, type: 3}
+  m_Name: CellTouch_ToonShader_Head_Clipping(TESS)
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_guid: 1f48e84f64ba2410d97637d8bd534e01
+  m_material: {fileID: 2100000, guid: 1f48e84f64ba2410d97637d8bd534e01, type: 2}
+  m_color: {r: 0.122206226, g: 0.39346528, b: 0.8494601, a: 0.7395524}
+--- !u!114 &1410068247795286683
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 182d361ee88e6fe44b4114b089562f21, type: 3}
+  m_Name: ToonShader_Eyebrow_StencilMask(TESS)
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_guid: 8c33f50c7c0734e028d5d7addff8fccb
+  m_material: {fileID: 2100000, guid: 8c33f50c7c0734e028d5d7addff8fccb, type: 2}
+  m_color: {r: 0.5476678, g: 0.48448497, b: 0.15951298, a: 0.874893}
+--- !u!114 &1462208084969306421
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 182d361ee88e6fe44b4114b089562f21, type: 3}
+  m_Name: CalibrationGreyscaleDark
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_guid: c60e2d3bc8ff4b619d7c405e6f73c589
+  m_material: {fileID: 2100000, guid: c60e2d3bc8ff4b619d7c405e6f73c589, type: 2}
+  m_color: {r: 0.7736538, g: 0.78514546, b: 0.61517715, a: 0.43536028}
+--- !u!114 &1518209582159369882
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 182d361ee88e6fe44b4114b089562f21, type: 3}
+  m_Name: Flesh_Trans
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_guid: b2bd5005aba44452a8c5d6f36a6cce05
+  m_material: {fileID: 2100000, guid: b2bd5005aba44452a8c5d6f36a6cce05, type: 2}
+  m_color: {r: 0.6982012, g: 0.67047524, b: 0.6592688, a: 0.41572273}
+--- !u!114 &1726880905875300855
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 182d361ee88e6fe44b4114b089562f21, type: 3}
+  m_Name: ToonShader_Head_Clipping_ABN
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_guid: 7962b93c32ff409da822e9072c35597b
+  m_material: {fileID: 2100000, guid: 7962b93c32ff409da822e9072c35597b, type: 2}
+  m_color: {r: 0.47416264, g: 0.19920734, b: 0.6567827, a: 0.17268905}
+--- !u!114 &1829511686077356644
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 182d361ee88e6fe44b4114b089562f21, type: 3}
+  m_Name: Rubber
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_guid: b667b4f6c368489ca3d5b939a7ee99bd
+  m_material: {fileID: 2100000, guid: b667b4f6c368489ca3d5b939a7ee99bd, type: 2}
+  m_color: {r: 0.71251994, g: 0.76331, b: 0.6399799, a: 0.6559845}
+--- !u!114 &1886140333825499374
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 182d361ee88e6fe44b4114b089562f21, type: 3}
+  m_Name: HDRPTestMaterialRed
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_guid: 5fd5550fbbcb498e8115dde213906d9b
+  m_material: {fileID: 2100000, guid: 5fd5550fbbcb498e8115dde213906d9b, type: 2}
+  m_color: {r: 0.37434894, g: 0.7335707, b: 0.5042399, a: 0.07642255}
+--- !u!114 &1951034943143526445
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 182d361ee88e6fe44b4114b089562f21, type: 3}
+  m_Name: Emissive_UTS2
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_guid: ade27a69147740b09d9d398f47b613af
+  m_material: {fileID: 2100000, guid: ade27a69147740b09d9d398f47b613af, type: 2}
+  m_color: {r: 0.679237, g: 0.079944655, b: 0.61568034, a: 0.280122}
+--- !u!114 &2058460978089081378
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 182d361ee88e6fe44b4114b089562f21, type: 3}
+  m_Name: Flesh3
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_guid: 4f2759e5eb3f4249a02ed6d570e06de9
+  m_material: {fileID: 2100000, guid: 4f2759e5eb3f4249a02ed6d570e06de9, type: 2}
+  m_color: {r: 0.3091942, g: 0.918934, b: 0.6257147, a: 0.44092453}
+--- !u!114 &2116799972431247170
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 182d361ee88e6fe44b4114b089562f21, type: 3}
+  m_Name: CellTouch_ToonShader_Main_Firefly_RTHS
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_guid: c88cb131d9cf4aca8ce28b1214ba7489
+  m_material: {fileID: 2100000, guid: c88cb131d9cf4aca8ce28b1214ba7489, type: 2}
+  m_color: {r: 0.7833968, g: 0.8508193, b: 0.5503318, a: 0.08097008}
+--- !u!114 &2396680226179257199
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 182d361ee88e6fe44b4114b089562f21, type: 3}
+  m_Name: Grey_UTS2
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_guid: b8028fe6f56f405c88e45f30c629456b
+  m_material: {fileID: 2100000, guid: b8028fe6f56f405c88e45f30c629456b, type: 2}
+  m_color: {r: 0.7187891, g: 0.9587288, b: 0.53473467, a: 0.7740672}
+--- !u!114 &2582892443719514449
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 182d361ee88e6fe44b4114b089562f21, type: 3}
+  m_Name: Pure Black
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_guid: 76fb15049b4e4f1182d7860cdbf1c3e6
+  m_material: {fileID: 2100000, guid: 76fb15049b4e4f1182d7860cdbf1c3e6, type: 2}
+  m_color: {r: 0.4647687, g: 0.60666364, b: 0.5111011, a: 0.8591578}
+--- !u!114 &2615549987111799409
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 182d361ee88e6fe44b4114b089562f21, type: 3}
+  m_Name: white
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_guid: cb303861148141ee82b125f9fcab61b5
+  m_material: {fileID: 2100000, guid: cb303861148141ee82b125f9fcab61b5, type: 2}
+  m_color: {r: 0.7937045, g: 0.08009731, b: 0.5105156, a: 0.9869901}
+--- !u!114 &2625882045300868823
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 182d361ee88e6fe44b4114b089562f21, type: 3}
+  m_Name: Cube
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_guid: c19cefc14f254d22a9b3ab047684ec41
+  m_material: {fileID: 2100000, guid: c19cefc14f254d22a9b3ab047684ec41, type: 2}
+  m_color: {r: 0.7563009, g: 0.3091629, b: 0.66289777, a: 0.46296576}
+--- !u!114 &2698860805421295307
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 182d361ee88e6fe44b4114b089562f21, type: 3}
+  m_Name: Quad_TransStencilOut
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_guid: a75b5ce5fb274027b4a64b14645fd733
+  m_material: {fileID: 2100000, guid: a75b5ce5fb274027b4a64b14645fd733, type: 2}
+  m_color: {r: 0.65373784, g: 0.98106766, b: 0.7056624, a: 0.3920874}
+--- !u!114 &2985028133885276189
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 182d361ee88e6fe44b4114b089562f21, type: 3}
+  m_Name: CellTouch_ToonShader_Fhair2_StencilOut
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_guid: 069c2f88477245ffb0238c7a5c45e2eb
+  m_material: {fileID: 2100000, guid: 069c2f88477245ffb0238c7a5c45e2eb, type: 2}
+  m_color: {r: 0.025820704, g: 0.27908742, b: 0.6880424, a: 0.3604414}
+--- !u!114 &3172913404460922798
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 182d361ee88e6fe44b4114b089562f21, type: 3}
+  m_Name: ToonShader_Fhair2
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_guid: efd7c6229c814feebfdb0ad763b58b63
+  m_material: {fileID: 2100000, guid: efd7c6229c814feebfdb0ad763b58b63, type: 2}
+  m_color: {r: 0.9368862, g: 0.61134815, b: 0.7494361, a: 0.3894889}
+--- !u!114 &3256684356084863832
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 182d361ee88e6fe44b4114b089562f21, type: 3}
+  m_Name: CellTouch_ToonShader_Head_Clipping
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_guid: c108d0a7db524a57b7c0c7c2cda289a5
+  m_material: {fileID: 2100000, guid: c108d0a7db524a57b7c0c7c2cda289a5, type: 2}
+  m_color: {r: 0.7540408, g: 0.8567244, b: 0.71778536, a: 0.8032614}
+--- !u!114 &3276379916523630483
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 182d361ee88e6fe44b4114b089562f21, type: 3}
+  m_Name: MirrorFlame
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_guid: 3c5ff1e8d42443ef88ddcef8052dc6e8
+  m_material: {fileID: 2100000, guid: 3c5ff1e8d42443ef88ddcef8052dc6e8, type: 2}
+  m_color: {r: 0.23583901, g: 0.82867837, b: 0.53463453, a: 0.020229751}
+--- !u!114 &3517406216551176508
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 182d361ee88e6fe44b4114b089562f21, type: 3}
+  m_Name: Image Black
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_guid: b90db994a4bc455fb9bfa323d577e268
+  m_material: {fileID: 2100000, guid: b90db994a4bc455fb9bfa323d577e268, type: 2}
+  m_color: {r: 0.7228657, g: 0.64349777, b: 0.7255804, a: 0.8338605}
+--- !u!114 &4034397767044812382
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 182d361ee88e6fe44b4114b089562f21, type: 3}
+  m_Name: ShadingGradeMap
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_guid: 8818adcd3b2642f9aa1765d4e2275081
+  m_material: {fileID: 2100000, guid: 8818adcd3b2642f9aa1765d4e2275081, type: 2}
+  m_color: {r: 0.5316266, g: 0.23105258, b: 0.66441953, a: 0.8834124}
+--- !u!114 &4059535116032720469
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 182d361ee88e6fe44b4114b089562f21, type: 3}
+  m_Name: Transparent
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_guid: 732a20feb9db4d69b04fb680b0fe0ec3
+  m_material: {fileID: 2100000, guid: 732a20feb9db4d69b04fb680b0fe0ec3, type: 2}
+  m_color: {r: 0.4498616, g: 0.7260025, b: 0.6887163, a: 0.6913766}
+--- !u!114 &4323499676035922494
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 182d361ee88e6fe44b4114b089562f21, type: 3}
+  m_Name: Blue_Clipping
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_guid: 3823286fb3a1498cb28810d5b56826a3
+  m_material: {fileID: 2100000, guid: 3823286fb3a1498cb28810d5b56826a3, type: 2}
+  m_color: {r: 0.21928647, g: 0.7016798, b: 0.6973887, a: 0.7086205}
+--- !u!114 &4339335030149911212
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 182d361ee88e6fe44b4114b089562f21, type: 3}
+  m_Name: Red
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_guid: 09a736291bbb407e8c9608ddd2ae7708
+  m_material: {fileID: 2100000, guid: 09a736291bbb407e8c9608ddd2ae7708, type: 2}
+  m_color: {r: 0.037707698, g: 0.10832599, b: 0.54916435, a: 0.8229746}
+--- !u!114 &5626025923014754057
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 182d361ee88e6fe44b4114b089562f21, type: 3}
+  m_Name: UTS2
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_guid: 7156398f6185410dbfa1bc73258a9c9e
+  m_material: {fileID: 2100000, guid: 7156398f6185410dbfa1bc73258a9c9e, type: 2}
+  m_color: {r: 0.44272193, g: 0.38093954, b: 0.7485616, a: 0.14664629}
+--- !u!114 &5809832113979806227
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 182d361ee88e6fe44b4114b089562f21, type: 3}
+  m_Name: TsAll
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_guid: aeb462e0d3a75364382c57dcfce96456
+  m_material: {fileID: 2100000, guid: aeb462e0d3a75364382c57dcfce96456, type: 2}
+  m_color: {r: 0.68244, g: 0.8267719, b: 0.21942662, a: 0.98793626}
+--- !u!114 &5899605550224066401
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 182d361ee88e6fe44b4114b089562f21, type: 3}
+  m_Name: CellTouch_ToonShader_Hair_Clipping_Firefly_RTHS
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_guid: fd56a49827a344828439de395dca608f
+  m_material: {fileID: 2100000, guid: fd56a49827a344828439de395dca608f, type: 2}
+  m_color: {r: 0.98960334, g: 0.15483502, b: 0.516508, a: 0.36636928}
+--- !u!114 &6225825443846166464
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 182d361ee88e6fe44b4114b089562f21, type: 3}
+  m_Name: CellTouch_ToonShader_Face(TESS)
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_guid: 87a8fa45944e74d67ab7b6dbf0db6203
+  m_material: {fileID: 2100000, guid: 87a8fa45944e74d67ab7b6dbf0db6203, type: 2}
+  m_color: {r: 0.5299221, g: 0.57932216, b: 0.47936577, a: 0.9408475}
+--- !u!114 &6298067753813360256
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 182d361ee88e6fe44b4114b089562f21, type: 3}
+  m_Name: ToonShader_Eye_Clipping_StencilMask_Firefly
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_guid: 71ef29babbf7434f991213f5292b05c9
+  m_material: {fileID: 2100000, guid: 71ef29babbf7434f991213f5292b05c9, type: 2}
+  m_color: {r: 0.44505557, g: 0.73424166, b: 0.5979321, a: 0.16081272}
+--- !u!114 &6390081855428619628
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 182d361ee88e6fe44b4114b089562f21, type: 3}
+  m_Name: Grey_UTS2_Mobile
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_guid: 4a7cd3571f6c430a9878dd5df7fa6075
+  m_material: {fileID: 2100000, guid: 4a7cd3571f6c430a9878dd5df7fa6075, type: 2}
+  m_color: {r: 0.2909672, g: 0.12274569, b: 0.5955942, a: 0.96866417}
+--- !u!114 &6653051129764755132
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 182d361ee88e6fe44b4114b089562f21, type: 3}
+  m_Name: ToonShader_Eyebrow_StencilMask_ABN
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_guid: 127f4fb22c2c4872b3a9dde58ebc59ad
+  m_material: {fileID: 2100000, guid: 127f4fb22c2c4872b3a9dde58ebc59ad, type: 2}
+  m_color: {r: 0.07225512, g: 0.17255071, b: 0.7018107, a: 0.5575615}
+--- !u!114 &6956136113268484063
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 182d361ee88e6fe44b4114b089562f21, type: 3}
+  m_Name: sphere_Purple
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_guid: a79271c0fc7e426f8f7fe90fcc2c5c28
+  m_material: {fileID: 2100000, guid: a79271c0fc7e426f8f7fe90fcc2c5c28, type: 2}
+  m_color: {r: 0.6545783, g: 0.98630154, b: 0.5605455, a: 0.7975519}
+--- !u!114 &7176580002577944431
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 182d361ee88e6fe44b4114b089562f21, type: 3}
+  m_Name: unitychan_tile3(LWRP)
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_guid: 0f2abcad49054d09a04ec7df9160c51c
+  m_material: {fileID: 2100000, guid: 0f2abcad49054d09a04ec7df9160c51c, type: 2}
+  m_color: {r: 0.059245866, g: 0.28523713, b: 0.6262021, a: 0.56788284}
+--- !u!114 &7642513529532282112
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 182d361ee88e6fe44b4114b089562f21, type: 3}
+  m_Name: CalibrationGreyscaleLight
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_guid: 2de6f3631d9f41df8bdad823e12be4f9
+  m_material: {fileID: 2100000, guid: 2de6f3631d9f41df8bdad823e12be4f9, type: 2}
+  m_color: {r: 0.17930529, g: 0.115711324, b: 0.54630804, a: 0.879576}
+--- !u!114 &7947749800886267007
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 182d361ee88e6fe44b4114b089562f21, type: 3}
+  m_Name: ToonShader_Hair_Clipping
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_guid: 55fd0733fa0f42a39b4494d3803b4f10
+  m_material: {fileID: 2100000, guid: 55fd0733fa0f42a39b4494d3803b4f10, type: 2}
+  m_color: {r: 0.33589214, g: 0.9767954, b: 0.6065152, a: 0.500905}
+--- !u!114 &8011965020285330203
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 182d361ee88e6fe44b4114b089562f21, type: 3}
+  m_Name: CellTouch_ToonShader_Hair_Clipping
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_guid: e974cbce40b14be4a527cfb23531b60e
+  m_material: {fileID: 2100000, guid: e974cbce40b14be4a527cfb23531b60e, type: 2}
+  m_color: {r: 0.9119384, g: 0.25270534, b: 0.64513874, a: 0.20778978}
+--- !u!114 &8159257710535799341
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 182d361ee88e6fe44b4114b089562f21, type: 3}
+  m_Name: ToonShader_Hair_Clipping_ABN
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_guid: 03046ac69a764a7b853f1e2e9f4aa02b
+  m_material: {fileID: 2100000, guid: 03046ac69a764a7b853f1e2e9f4aa02b, type: 2}
+  m_color: {r: 0.01178615, g: 0.60336745, b: 0.52049434, a: 0.62223244}
+--- !u!114 &8335138158926214979
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 182d361ee88e6fe44b4114b089562f21, type: 3}
+  m_Name: EmissiveAnimation
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_guid: 07b938339c634b869a08acf82523d7d4
+  m_material: {fileID: 2100000, guid: 07b938339c634b869a08acf82523d7d4, type: 2}
+  m_color: {r: 0.030169975, g: 0.61089015, b: 0.6016949, a: 0.14507817}
+--- !u!114 &8337503457601002997
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 182d361ee88e6fe44b4114b089562f21, type: 3}
+  m_Name: CellTouch_ToonShader_Main_Firefly
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_guid: ceeb197f633342f88e4b7802bd333ed2
+  m_material: {fileID: 2100000, guid: ceeb197f633342f88e4b7802bd333ed2, type: 2}
+  m_color: {r: 0.8082748, g: 0.38750094, b: 0.55583906, a: 0.7390632}
+--- !u!114 &8441861019423138417
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 182d361ee88e6fe44b4114b089562f21, type: 3}
+  m_Name: Sky_LightAndShadows
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_guid: 761bfeccb7354441b422c0a16a0ffaaa
+  m_material: {fileID: 2100000, guid: 761bfeccb7354441b422c0a16a0ffaaa, type: 2}
+  m_color: {r: 0.4613647, g: 0.7156565, b: 0.7036553, a: 0.4143063}
+--- !u!114 &8481086970270358236
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 182d361ee88e6fe44b4114b089562f21, type: 3}
+  m_Name: checkerA
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_guid: 34d83e4df2c1400a821c3975a217ecf8
+  m_material: {fileID: 2100000, guid: 34d83e4df2c1400a821c3975a217ecf8, type: 2}
+  m_color: {r: 0.20642461, g: 0.94826126, b: 0.50824314, a: 0.6331776}
+--- !u!114 &8774120023820315019
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 182d361ee88e6fe44b4114b089562f21, type: 3}
+  m_Name: unitychan_tile3
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_guid: 25bf8c07ab3940baa67f7a11b53e4e14
+  m_material: {fileID: 2100000, guid: 25bf8c07ab3940baa67f7a11b53e4e14, type: 2}
+  m_color: {r: 0.14745402, g: 0.6688424, b: 0.65038264, a: 0.70798194}
+--- !u!114 &8801397628689307041
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 182d361ee88e6fe44b4114b089562f21, type: 3}
+  m_Name: hair_main
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_guid: 4a796262468540be974d90a8fa5b4c6d
+  m_material: {fileID: 2100000, guid: 4a796262468540be974d90a8fa5b4c6d, type: 2}
+  m_color: {r: 0.29091468, g: 0.27547076, b: 0.5910273, a: 0.9779556}
+--- !u!114 &9003789669414861466
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 182d361ee88e6fe44b4114b089562f21, type: 3}
+  m_Name: CellTouch_ToonShader_Fhair2_StencilOut_RTHS
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_guid: 5901b69d4f1540bdbe79b955c813e9a8
+  m_material: {fileID: 2100000, guid: 5901b69d4f1540bdbe79b955c813e9a8, type: 2}
+  m_color: {r: 0.3476824, g: 0.30891803, b: 0.74404484, a: 0.78155386}
+--- !u!114 &9108878318318736535
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 182d361ee88e6fe44b4114b089562f21, type: 3}
+  m_Name: Emerald_Inside
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_guid: 19293121f2324ebba167a9550ae9030d
+  m_material: {fileID: 2100000, guid: 19293121f2324ebba167a9550ae9030d, type: 2}
+  m_color: {r: 0.09828479, g: 0.94608015, b: 0.630488, a: 0.04261798}
+--- !u!114 &9122275382557879051
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 182d361ee88e6fe44b4114b089562f21, type: 3}
+  m_Name: Emissive Red
+  m_EditorClassIdentifier: 
+  m_isActive: 1
+  m_guid: 9cb432fc45ad4716bec2a2a7917f2a9b
+  m_material: {fileID: 2100000, guid: 9cb432fc45ad4716bec2a2a7917f2a9b, type: 2}
+  m_color: {r: 0.6121246, g: 0.27217525, b: 0.7451574, a: 0.5683467}
