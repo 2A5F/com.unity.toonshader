@@ -1224,6 +1224,8 @@ Shader "Toon" {
             #pragma multi_compile _ DIRLIGHTMAP_COMBINED
             #pragma multi_compile _ LIGHTMAP_ON
             #pragma multi_compile_fog
+	    
+            #pragma multi_compile_fragment _ _WRITE_RENDERING_LAYERS
 
             #define _IS_PASS_FWDBASE
             // DoubleShadeWithFeather and ShadingGradeMap use different fragment shader.  
@@ -1334,7 +1336,7 @@ Shader "Toon" {
             #pragma shader_feature_local _PARALLAXMAP
             #pragma shader_feature_local _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
 
-
+	    #pragma multi_compile_fragment _ _WRITE_RENDERING_LAYERS
 
             #include "../../UniversalRP/Shaders/UniversalToonInput.hlsl"
             #include "Packages/com.unity.render-pipelines.universal/Shaders/DepthNormalsPass.hlsl"
