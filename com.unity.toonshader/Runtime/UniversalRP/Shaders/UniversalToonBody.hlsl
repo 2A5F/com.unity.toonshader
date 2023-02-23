@@ -447,8 +447,17 @@
 
 #endif //#if defined(_SHADINGGRADEMAP)
 
-            float4 frag(VertexOutput i, fixed facing : VFACE) : SV_TARGET
+            float4 frag(VertexOutput i, fixed facing : VFACE
+	    #ifdef _WRITE_RENDERING_LAYERS
+	    , out float4 outRenderingLayers : SV_Target1
+            #endif
+	    ) : SV_TARGET0
             {
+	    	#ifdef _WRITE_RENDERING_LAYERS
+                uint renderingLayers = GetMeshRenderingLayer();
+                outRenderingLayers = float4(EncodeMeshRenderingLayer(renderingLayers), 0, 0, 0);
+                #endif
+		
 #if defined(_SHADINGGRADEMAP)
                     return fragShadingGradeMap(i, facing);
 #else
